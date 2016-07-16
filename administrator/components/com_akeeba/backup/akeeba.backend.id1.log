@@ -1,0 +1,74 @@
+DEBUG   |160620 07:54:05|*** Batching successive steps (nesting level 1)
+DEBUG   |160620 07:54:05|====== Starting Step number 1 ======
+DEBUG   |160620 07:54:05|Kettenrad :: Switching domains
+DEBUG   |160620 07:54:05|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |160620 07:54:05|Switching to domain init, class Init
+DEBUG   |160620 07:54:05|Akeeba\Engine\Core\Domain\Init :: New instance
+DEBUG   |160620 07:54:05|Kettenrad :: Ticking the domain object
+DEBUG   |160620 07:54:05|Kettenrad :: Domain object returned; propagating
+DEBUG   |160620 07:54:05|Kettenrad :: Break flag status: YES
+DEBUG   |160620 07:54:05|----- Finished operation 1 ------
+DEBUG   |160620 07:54:05|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160620 07:54:05|====== Finished Step number 1 ======
+DEBUG   |160620 07:54:05|Kettenrad :: Setting the break flag between domains
+DEBUG   |160620 07:54:05|*** Engine steps batching: Break flag detected.
+DEBUG   |160620 07:54:05|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160620 07:54:05|Sleeping for 1996.0000514984 msec, using usleep()
+DEBUG   |160620 07:54:07|====== Starting Step number 2 ======
+DEBUG   |160620 07:54:07|Kettenrad :: Ticking the domain object
+INFO    |160620 07:54:07|--------------------------------------------------------------------------------
+INFO    |160620 07:54:07|Akeeba Backup 5.1.0 (2016-06-07)
+INFO    |160620 07:54:07|Got backup?
+INFO    |160620 07:54:07|--------------------------------------------------------------------------------
+INFO    |160620 07:54:07|--- System Information ---
+INFO    |160620 07:54:07|PHP Version        :5.6.14
+INFO    |160620 07:54:07|PHP OS             :WINNT
+INFO    |160620 07:54:07|PHP SAPI           :apache2handler
+INFO    |160620 07:54:07|OS Version         :Windows NT
+INFO    |160620 07:54:07|DB Version         :5.5.5-10.1.8-MariaDB
+INFO    |160620 07:54:07|Web Server         :Apache/2.4.17 (Win32) OpenSSL/1.0.2d PHP/5.6.14
+INFO    |160620 07:54:07|Joomla! version    :3.4.8
+INFO    |160620 07:54:07|Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36
+INFO    |160620 07:54:07|Safe mode          :
+INFO    |160620 07:54:07|Display errors     :
+INFO    |160620 07:54:07|Error reporting    :E_ERROR | E_WARNING | E_PARSE | E_NOTICE | E_CORE_ERROR | E_CORE_WARNING | E_COMPILE_ERROR | E_COMPILE_WARNING | E_USER_ERROR | E_USER_WARNING | E_USER_NOTICE
+INFO    |160620 07:54:07|Error display      :off
+INFO    |160620 07:54:07|Disabled functions :
+INFO    |160620 07:54:07|open_basedir restr.:
+INFO    |160620 07:54:07|Max. exec. time    :0
+INFO    |160620 07:54:07|Memory limit       :128M
+INFO    |160620 07:54:07|Current mem. usage :7391152
+INFO    |160620 07:54:07|GZIP Compression   : available (good)
+INFO    |160620 07:54:07|JPATH_BASE         :<root>\administrator
+INFO    |160620 07:54:07|JPATH_SITE         :<root>
+INFO    |160620 07:54:07|JPATH_ROOT         :<root>
+INFO    |160620 07:54:07|JPATH_CACHE        :<root>\administrator\cache
+INFO    |160620 07:54:07|Computed root      :<root>
+INFO    |160620 07:54:07|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |160620 07:54:07|Part size (bytes)  :0
+INFO    |160620 07:54:07|--------------------------------------------------------------------------------
+INFO    |160620 07:54:07|Loaded profile #1
+DEBUG   |160620 07:54:07|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |160620 07:54:07|Expanded template name: site-localhost-20160620-055407
+DEBUG   |160620 07:54:07|Backup type is now set to 'full'
+DEBUG   |160620 07:54:07|Expanded archive file name: <root>/administrator/components/com_akeeba/backup/site-localhost-20160620-055407.jpa
+DEBUG   |160620 07:54:07|Initializing archiver engine
+DEBUG   |160620 07:54:07|Akeeba\Engine\Archiver\Jpa :: new instance - archive <root>/administrator/components/com_akeeba/backup/site-localhost-20160620-055407.jpa
+DEBUG   |160620 07:54:07|Akeeba\Engine\Archiver\Jpa :: Killing old archive
+DEBUG   |160620 07:54:07|Kettenrad :: Domain object returned; propagating
+DEBUG   |160620 07:54:07|Kettenrad :: Break flag status: no
+DEBUG   |160620 07:54:07|----- Finished operation 1 ------
+DEBUG   |160620 07:54:07|Kettenrad :: Ticking the domain object
+DEBUG   |160620 07:54:07|Kettenrad :: Domain object returned; propagating
+DEBUG   |160620 07:54:07|Kettenrad :: Break flag status: no
+DEBUG   |160620 07:54:07|----- Finished operation 2 ------
+DEBUG   |160620 07:54:07|Successful Smart algorithm on Akeeba\Engine\Core\Domain\Init
+DEBUG   |160620 07:54:07|Kettenrad :: Domain 'init' has finished.
+DEBUG   |160620 07:54:07|====== Finished Step number 2 ======
+DEBUG   |160620 07:54:07|Kettenrad :: Setting the break flag between domains
+DEBUG   |160620 07:54:07|*** Engine steps batching: Break flag detected.
+DEBUG   |160620 07:54:07|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |160620 07:54:07|No need to sleep; execution time: 2081.1190605164 msec; min. exec. time: 2000 msec
+DEBUG   |160620 07:54:07|Saving Kettenrad instance backend
+DEBUG   |160620 07:54:27|Kettenrad :: Attempting to load from database (backend.id1) [backend.id1]
+DEBUG   |160620 07:54:27| -- Loaded stored Akeeba Factory (backend.id1) [backend.id1]
